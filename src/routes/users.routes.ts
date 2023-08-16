@@ -11,3 +11,5 @@ class UsersRoutes{
         this.router.post("/", this.controller.create)
     }
 }
+
+export default new UsersRoutes().router

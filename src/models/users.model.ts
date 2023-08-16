@@ -29,5 +29,11 @@ export default class Users extends Model {
         field: "phone_no",
     })
     phone_no?: number;
+
+    @Column({
+        type: DataType.BOOLEAN,
+        field: "published",
+    })
+    published?: boolean;
     
 }
